@@ -101,7 +101,9 @@
     "preTitle": "// Get In Touch",
     "title": "Let's Build the <span class='text-gradient'>Future of Biotechnology</span>",
     "p1": "Whether you are a researcher, investor, or innovation enthusiast, we invite you to connect. We believe collaboration is the key to turning science into real-world impact.",
-    "p2": "Fill out the form below or email us directly at <a href='mailto:contato@dayhoff.solutions' class='text-brand-primary hover:underline transition-colors'>contato@dayhoff.solutions</a>."
+    "p2": "Fill out the form below or email us directly at <a href='mailto:contato@dayhoff.solutions' class='text-brand-primary hover:underline transition-colors'>contato@dayhoff.solutions</a>.",
+    "locationPreTitle": "// Our Location",
+    "locationTitle": "Find Us in <span class='text-gradient'>Brazil</span>"
   },
   "contactForm": {
     "name": "Name",
