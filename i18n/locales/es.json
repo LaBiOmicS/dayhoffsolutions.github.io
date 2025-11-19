@@ -27,7 +27,7 @@
   "about": {
     "preTitle": "// Nuestra Misión",
     "title": "Descifrando la <br/> <span class='text-gradient'>Complejidad de la Vida</span>",
-    "p1": "En la intersección de la biología y la computación, nuestra misión es desarrollar una comprensión fundamental de los sistemas vivos para crear soluciones innovadoras y de alto impacto para los mayores desafíos de la humanidad.",
+    "p1": "En la intersección de la biología y la computación, nuestra misión es desarrollar una comprensión fundamental de los sistemas vivos para crear soluciones inovadoras y de alto impacto para los mayores desafíos de la humanidad.",
     "p2": "Estamos construyendo una base de conocimiento y tecnología para catalizar la próxima generación de descubrimientos científicos.",
     "tag1": "BIO_INSIGHTS",
     "tag2": "TECH_FUTURO",
@@ -120,7 +120,7 @@
     "subtitle": "Envía un mensaje a <span class='text-brand-primary'>contato@dayhoff.solutions</span> a través del siguiente formulario."
   },
   "footer": {
-    "copyright": "© 2025 • dayhoff.solutions - una empresa de deeptech que conecta moléculas, algoritmos e innovación.",
+    "copyright": "© 2025 dayhoff.solutions. Todos los derechos reservados.",
     "policies": "Políticas Legales"
   },
   "policies": {

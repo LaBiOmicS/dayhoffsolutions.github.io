@@ -10,14 +10,13 @@ const Footer: React.FC<FooterProps> = ({ openPolicyModal }) => {
     return (
         <footer className="bg-transparent border-t border-slate-800">
             <div className="container mx-auto px-6 py-8 text-center text-slate-400">
-                <p className="mb-4 text-sm">
+                <div className="text-md font-bold text-white tracking-wider mb-4">
+                    dayhoff<span className="text-white">.</span><span className="text-gradient">solutions</span>
+                </div>
+                <p className="mb-4 text-xs text-slate-500">
                     {t('footer.copyright')}
                 </p>
                 <div className="flex justify-center items-center space-x-4 text-sm">
-                    <a href="mailto:contato@dayhoff.solutions" className="hover:text-brand-glow transition-colors duration-300">
-                        contato@dayhoff.solutions
-                    </a>
-                    <span className="text-slate-600">|</span>
                     <button onClick={openPolicyModal} className="hover:text-brand-glow transition-colors duration-300">
                         {t('footer.policies')}
                     </button>
