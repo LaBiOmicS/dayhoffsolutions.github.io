@@ -1,0 +1,125 @@
+{
+  "header": {
+    "about": "About",
+    "mission": "Mission",
+    "pillars": "Pillars",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Connecting Molecules, Algorithms, <br/> and <span class='text-gradient'>Innovation</span>.",
+    "subtitle": "We are a deeptech company building at the intersection of bioinformatics, biotechnology, and molecular biology to solve humanity's greatest challenges.",
+    "terminalHeader": "dayhoff.solutions -- bash"
+  },
+  "sidebar": {
+    "projectFiles": "Project Files",
+    "mission": "Mission",
+    "missionText": "To decipher the complexity of life by connecting molecules, algorithms, and innovation for humanity's greatest challenges."
+  },
+  "company": {
+    "preTitle": "// Who We Are",
+    "title": "Decoding Biology Through <span class='text-gradient'>Computational Intelligence</span>",
+    "p1": "<span class='text-gradient'>dayhoff.solutions</span> is a deeptech startup born from the convergence of molecular biology and data science. We don't just analyze data; we interpret the programming language of life.",
+    "p2": "Named in honor of <strong>Margaret Dayhoff</strong>, the mother of bioinformatics, we carry forward her legacy of applying computational power to biological questions. Our team consists of PhDs, engineers, and bioinformaticians dedicated to building the infrastructure for the next era of biotechnology.",
+    "tag1": "EST. 2024",
+    "tag2": "DEEPTECH_LAB"
+  },
+  "about": {
+    "preTitle": "// Our Mission",
+    "title": "Deciphering the <span class='text-gradient'>Complexity of Life</span>",
+    "p1": "At the intersection of biology and computation, our mission is to develop a fundamental understanding of living systems to create innovative, high-impact solutions for humanity's greatest challenges.",
+    "p2": "We are building a foundation of knowledge and technology to catalyze the next generation of scientific discoveries.",
+    "tag1": "BIO_INSIGHTS",
+    "tag2": "TECH_FUTURE",
+    "target": "TARGET: DISCOVERY"
+  },
+  "services": {
+    "preTitle": "// Our Pillars",
+    "title": "Core <span class='text-gradient'>Capabilities</span>",
+    "subtitle": "Our approach is built on a philosophy that unites the rigor of academic research with the agility of high-tech engineering.",
+    "pillar1_title": "Fundamental Science",
+    "pillar1_subtitle": "MOLECULAR_BASIS",
+    "pillar1_desc": "We start from a place of deep curiosity and uncompromising scientific rigor. We believe the greatest innovations are born from understanding the basic principles of biology.",
+    "pillar2_title": "Exponential Computation",
+    "pillar2_subtitle": "ALGORITHMIC_SCALE",
+    "pillar2_desc": "We apply the power of advanced algorithms, AI, and computational modeling to find signals in the noise, transforming biological data into actionable insights.",
+    "pillar3_title": "Translational Innovation",
+    "pillar3_subtitle": "REAL_WORLD_IMPACT",
+    "pillar3_desc": "Our ultimate goal is to connect discovery with application. We build the bridge between fundamental knowledge and real-world solutions that can improve lives.",
+    "status": "SYS.RDY"
+  },
+  "techStack": {
+    "preTitle": "// Operational Architecture",
+    "title": "Technology <span class='text-gradient'>Ecosystem</span>",
+    "subtitle": "Our platform is built upon a robust stack of technologies designed for scalability and precision.",
+    "cat1": "COMPUTE_CORE",
+    "cat2": "WORKFLOW_OPS",
+    "cat3": "INTELLIGENCE",
+    "cat4": "DATA_INFRA"
+  },
+  "expertise": {
+    "preTitle": "// Specialized Domains",
+    "title": "Our Core <span class='text-gradient'>Scientific Domains</span>",
+    "subtitle": "We apply our computational and biological expertise across key high-impact areas of modern life sciences.",
+    "geno_title": "Genomics",
+    "geno_desc": "Decoding the complete genetic blueprints of organisms. From assembly to annotation and variant analysis, we extract insights into function and evolution.",
+    "trans_title": "Transcriptomics",
+    "trans_desc": "Capturing a dynamic snapshot of gene expression through RNA sequencing to understand cellular responses, disease mechanisms, and regulatory networks.",
+    "proteo_title": "Proteomics",
+    "proteo_desc": "Characterizing the entire set of proteins in a biological system. We identify and quantify proteins to understand cellular processes, signaling pathways, and identify biomarkers.",
+    "metabo_title": "Metabolomics",
+    "metabo_desc": "Studying the complete set of small-molecule metabolites. This provides a direct functional readout of cellular state, crucial for understanding phenotype and disease mechanisms.",
+    "meta_title": "Metagenomics",
+    "meta_desc": "Analyzing the collective genetic material from environmental samples to understand microbial diversity and function. This includes comprehensive microbiome analysis to map the interplay between hosts and their microbial communities.",
+    "mito_title": "Mitogenomics",
+    "mito_desc": "Specializing in the study of the mitochondrial genome. We analyze its unique genetics to trace evolutionary lineages, understand metabolic diseases, and investigate cellular energy production."
+  },
+  "quote": {
+    "preTitle": "// Our Inspiration",
+    "quoteText": "\"It is only by the comparison of the sequences of proteins from living organisms that we can hope to unravel the detailed history of the evolution of life.\"",
+    "author": "Margaret Dayhoff",
+    "authorTitle": "Mother of Bioinformatics"
+  },
+  "careers": {
+    "preTitle": "",
+    "title": "Build the Future <span class='text-gradient'>With Us</span>",
+    "subtitle": "We are looking for passionate innovators, scientists, and engineers to help us decode the future of biology. If you thrive on complex challenges and collaborative discovery, explore our open positions.",
+    "job1_title": "Bioinformatics Scientist",
+    "job1_location": "Remote / São Paulo, SP",
+    "job1_desc": "Develop and apply computational methods to analyze large-scale biological data. Strong background in genomics, statistics, and Python/R required.",
+    "job2_title": "Senior Software Engineer (Cloud)",
+    "job2_location": "Remote",
+    "job2_desc": "Architect and build scalable cloud infrastructure for our data pipelines. Expertise in AWS/GCP, Kubernetes, and Nextflow/Snakemake is essential.",
+    "job3_title": "Molecular Biology Researcher",
+    "job3_location": "São Paulo, SP (Lab)",
+    "job3_desc": "Design and execute experiments in our wet lab to validate computational findings. Experience with NGS library prep and cell culture is a plus.",
+    "applyButton": "Apply Now",
+    "noFit": "Don't see a role that fits? We're always looking for talent.",
+    "contactUs": "Get in touch"
+  },
+  "contact": {
+    "preTitle": "// Get In Touch",
+    "title": "Let's Build the <span class='text-gradient'>Future of Biotechnology</span>",
+    "p1": "Whether you are a researcher, investor, or innovation enthusiast, we invite you to connect. We believe collaboration is the key to turning science into real-world impact.",
+    "p2": "Fill out the form below or email us directly at <a href='mailto:contato@dayhoff.solutions' class='text-brand-primary hover:underline transition-colors'>contato@dayhoff.solutions</a>."
+  },
+  "contactForm": {
+    "name": "Name",
+    "namePlaceholder": "Your Name",
+    "email": "Email",
+    "emailPlaceholder": "you@company.com",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "successTitle": "Message Sent!",
+    "successText": "Thank you for reaching out.<br/>We will get back to you shortly."
+  },
+  "contactModal": {
+    "title": "Let's Talk",
+    "subtitle": "Send a message to <span class='text-brand-primary'>contato@dayhoff.solutions</span> via the form below."
+  },
+  "footer": {
+    "copyright": "© 2025 • dayhoff.solutions - a deeptech company connecting molecules, algorithms, and innovation."
+  }
+}

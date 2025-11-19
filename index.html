@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dayhoff.solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#0891b2', // cyan-600
+              'brand-secondary': '#0e7490', // cyan-700
+              'brand-accent': '#7c3aed', // violet-600
+              'brand-glow': '#10b981', // emerald-500
+              'dark-bg': '#0a101f', // A darker, richer blue
+              'dark-card': '#1e293b', // slate-800
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['"Playfair Display"', 'serif'],
+              mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+            },
+            animation: {
+              'fade-in-down': 'fade-in-down 0.5s ease-out forwards',
+              'fade-in-up': 'fade-in-up 0.5s ease-out forwards',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+               'fade-in-down': {
+                '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              'fade-in-up': {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+            backgroundImage: {
+              'grid-pattern': "linear-gradient(to right, #1e293b 1px, transparent 1px), linear-gradient(to bottom, #1e293b 1px, transparent 1px)",
+            }
+          },
+        },
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      .text-gradient {
+        background: linear-gradient(90deg, #0891b2, #10b981);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      .bg-tech-grid {
+        background-size: 40px 40px;
+        background-image: linear-gradient(to right, rgba(30, 41, 59, 0.5) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 41, 59, 0.5) 1px, transparent 1px);
+        mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+        -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+      }
+      html {
+        scroll-behavior: smooth;
+        scrollbar-width: thin;
+        scrollbar-color: #334155 #0f172a; /* slate-700 slate-900 */
+      }
+      /* For Webkit-based browsers (Chrome, Safari, etc.) */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a; /* slate-900 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #334155; /* slate-700 */
+        border-radius: 20px;
+        border: 3px solid #0f172a; /* slate-900 */
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #0891b2; /* brand-primary */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-900 text-slate-300 font-sans antialiased selection:bg-brand-primary selection:text-white">
+    <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-plugin-polygon-mask@2.12.0/tsparticles.plugin.polygon-mask.bundle.min.js"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

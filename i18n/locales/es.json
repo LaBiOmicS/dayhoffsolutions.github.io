@@ -1,0 +1,125 @@
+{
+  "header": {
+    "about": "Sobre Nosotros",
+    "mission": "Misión",
+    "pillars": "Pilares",
+    "careers": "Carreras",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Conectando Moléculas, Algoritmos e <span class='text-gradient'>Innovación</span>.",
+    "subtitle": "Somos una empresa de deeptech que construye en la intersección de la bioinformática, la biotecnología y la biología molecular para resolver los mayores desafíos de la humanidad.",
+    "terminalHeader": "dayhoff.solutions -- bash"
+  },
+  "sidebar": {
+    "projectFiles": "Archivos del Proyecto",
+    "mission": "Misión",
+    "missionText": "Descifrar la complexidad de la vida conectando moléculas, algoritmos e innovación para los mayores desafíos de la humanidad."
+  },
+  "company": {
+    "preTitle": "// Quiénes Somos",
+    "title": "Decodificando la Biología a Través de la <span class='text-gradient'>Inteligencia Computacional</span>",
+    "p1": "<span class='text-gradient'>dayhoff.solutions</span> es una startup de deeptech nacida de la convergencia de la biología molecular y la ciencia de datos. No solo analizamos datos; interpretamos el lenguaje de programación de la vida.",
+    "p2": "Nombrada en honor a <strong>Margaret Dayhoff</strong>, la madre de la bioinformática, continuamos su legado de aplicar el poder computacional a cuestiones biológicas. Nuestro equipo está formado por doctores, ingenieros y bioinformáticos dedicados a construir la infraestructura para la próxima era de la biotecnología.",
+    "tag1": "FUND. 2024",
+    "tag2": "LAB_DEEPTECH"
+  },
+  "about": {
+    "preTitle": "// Nuestra Misión",
+    "title": "Descifrando la <span class='text-gradient'>Complejidad de la Vida</span>",
+    "p1": "En la intersección de la biología y la computación, nuestra misión es desarrollar una comprensión fundamental de los sistemas vivos para crear soluciones innovadoras y de alto impacto para los mayores desafíos de la humanidad.",
+    "p2": "Estamos construyendo una base de conocimiento y tecnología para catalizar la próxima generación de descubrimientos científicos.",
+    "tag1": "BIO_INSIGHTS",
+    "tag2": "TECH_FUTURO",
+    "target": "OBJETIVO: DESCUBRIMIENTO"
+  },
+  "services": {
+    "preTitle": "// Nuestros Pilares",
+    "title": "Capacidades <span class='text-gradient'>Esenciales</span>",
+    "subtitle": "Nuestro enfoque se basa en una filosofía que une el rigor de la investigación académica con la agilidad de la ingeniería de alta tecnología.",
+    "pillar1_title": "Ciencia Fundamental",
+    "pillar1_subtitle": "BASE_MOLECULAR",
+    "pillar1_desc": "Partimos de un lugar de profunda curiosidad y rigor científico inflexible. Creemos que las mayores innovaciones nacen de la comprensión de los principios básicos de la biología.",
+    "pillar2_title": "Computación Exponencial",
+    "pillar2_subtitle": "ESCALA_ALGORÍTMICA",
+    "pillar2_desc": "Aplicamos el poder de algoritmos avanzados, IA y modelado computacional para encontrar señales en el ruido, transformando datos biológicos en conocimientos accionables.",
+    "pillar3_title": "Innovación Traslacional",
+    "pillar3_subtitle": "IMPACTO_REAL",
+    "pillar3_desc": "Nuestro objetivo final es conectar el descubrimiento con la aplicación. Construimos el puente entre el conocimiento fundamental y las soluciones del mundo real que pueden mejorar vidas.",
+    "status": "SIS.LISTO"
+  },
+  "techStack": {
+    "preTitle": "// Arquitectura Operacional",
+    "title": "Ecosistema <span class='text-gradient'>Tecnológico</span>",
+    "subtitle": "Nuestra plataforma se construye sobre una pila robusta de tecnologías diseñadas para la escalabilidad y la precisión.",
+    "cat1": "NÚCLEO_CÓMPUTO",
+    "cat2": "OPERACIONES_FLUJO",
+    "cat3": "INTELIGENCIA",
+    "cat4": "INFRA_DATOS"
+  },
+  "expertise": {
+    "preTitle": "// Dominios de Especialización",
+    "title": "Nuestros Dominios <span class='text-gradient'>Científicos Clave</span>",
+    "subtitle": "Aplicamos nuestra experiencia computacional y biológica en áreas clave de alto impacto de las ciencias de la vida modernas.",
+    "geno_title": "Genómica",
+    "geno_desc": "Decodificando los planos genéticos completos de los organismos. Desde el ensamblaje hasta la anotación y el análisis de variantes, extraemos conocimientos sobre la función y la evolución.",
+    "trans_title": "Transcriptómica",
+    "trans_desc": "Capturando una instantánea dinámica de la expresión génica a través de la secuenciación de ARN para comprender las respuestas celulares, los mecanismos de enfermedades y las redes reguladoras.",
+    "proteo_title": "Proteómica",
+    "proteo_desc": "Caracterización del conjunto completo de proteínas en un sistema biológico. Identificamos y cuantificamos proteínas para comprender procesos celulares, vías de señalización e identificar biomarcadores.",
+    "metabo_title": "Metabolómica",
+    "metabo_desc": "Estudio del conjunto completo de metabolitos de molécula pequeña. Esto proporciona una lectura funcional directa del estado celular, crucial para comprender el fenotipo y los mecanismos de la enfermedad.",
+    "meta_title": "Metagenómica",
+    "meta_desc": "Análisis del material genético colectivo de muestras ambientales para comprender la diversidad y función microbiana. Esto incluye el análisis integral del microbioma para mapear la interacción entre los huéspedes y sus comunidades microbianas.",
+    "mito_title": "Mitogenómica",
+    "mito_desc": "Especializados en el estudio del genoma mitocondrial. Analizamos su genética única para rastrear linajes evolutivos, comprender enfermedades metabólicas e investigar la producción de energía celular."
+  },
+  "quote": {
+    "preTitle": "// Nuestra Inspiración",
+    "quoteText": "\"Es solo mediante la comparación de las secuencias de proteínas de los organismos vivos que podemos esperar desentrañar la historia detallada de la evolución de la vida.\"",
+    "author": "Margaret Dayhoff",
+    "authorTitle": "Madre de la Bioinformática"
+  },
+  "careers": {
+    "preTitle": "",
+    "title": "Construye el Futuro <span class='text-gradient'>Con Nosotros</span>",
+    "subtitle": "Estamos buscando innovadores, científicos e ingenieros apasionados para ayudarnos a decodificar el futuro de la biología. Si te gustan los desafíos complejos y el descubrimiento colaborativo, explora nuestras posiciones abiertas.",
+    "job1_title": "Científico de Bioinformática",
+    "job1_location": "Remoto / São Paulo, SP",
+    "job1_desc": "Desarrollar y aplicar métodos computacionales para analizar datos biológicos a gran escala. Se requiere una sólida formación en genómica, estadística y Python/R.",
+    "job2_title": "Ingeniero de Software Senior (Nube)",
+    "job2_location": "Remoto",
+    "job2_desc": "Diseñar y construir infraestructura en la nube escalable para nuestros pipelines de datos. Es esencial tener experiencia en AWS/GCP, Kubernetes y Nextflow/Snakemake.",
+    "job3_title": "Investigador de Biología Molecular",
+    "job3_location": "São Paulo, SP (Laboratorio)",
+    "job3_desc": "Diseñar y ejecutar experimentos en nuestro laboratorio húmedo para validar los hallazgos computacionales. La experiencia con la preparación de bibliotecas NGS y el cultivo celular es una ventaja.",
+    "applyButton": "Aplicar ahora",
+    "noFit": "¿No ves un rol que encaje? Siempre estamos buscando talento.",
+    "contactUs": "Ponte en contacto"
+  },
+  "contact": {
+    "preTitle": "// Contáctanos",
+    "title": "Construyamos el <span class='text-gradient'>Futuro de la Biotecnología</span>",
+    "p1": "Ya seas un investigador, inversor o un entusiasta de la innovación, te invitamos a conectar. Creemos que la colaboración es la clave para convertir la ciencia en un impacto en el mundo real.",
+    "p2": "Completa el formulario a continuación o envíanos un correo electrónico directamente a <a href='mailto:contato@dayhoff.solutions' class='text-brand-primary hover:underline transition-colors'>contato@dayhoff.solutions</a>."
+  },
+  "contactForm": {
+    "name": "Nombre",
+    "namePlaceholder": "Tu Nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "tu@empresa.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "¿Cómo podemos ayudarte?",
+    "submit": "Enviar Mensaje",
+    "submitting": "Enviando...",
+    "successTitle": "¡Mensaje Enviado!",
+    "successText": "Gracias por contactarnos.<br/>Nos pondremos en contacto contigo en breve."
+  },
+  "contactModal": {
+    "title": "Hablemos",
+    "subtitle": "Envía un mensaje a <span class='text-brand-primary'>contato@dayhoff.solutions</span> a través del siguiente formulario."
+  },
+  "footer": {
+    "copyright": "© 2025 • dayhoff.solutions - una empresa de deeptech que conecta moléculas, algoritmos e innovación."
+  }
+}
