@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
                     {/* Right Column: Google Map */}
                     <div className="w-full h-full min-h-[450px] md:min-h-full rounded-xl overflow-hidden border border-slate-700 group hover:border-brand-primary/30 transition-colors duration-300">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58519.5352914691!2d-46.68424716894531!3d-23.5506507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAvenida%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brazil!5e0!3m2!1sen!2sus!4v1678886554321!5m2!1sen!2sus&style=invert_color"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234293.3339511798!2d-46.41924961196288!3d-23.526513799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7b6042172569%3A0x776123a2965b2403!2sMogi%20das%20Cruzes%2C%20State%20of%20S%C3%A3o%20Paulo%2C%20Brazil!5e0!3m2!1sen!2sus!4v1721336995123!5m2!1sen!2sus&style=invert_color"
                             width="100%"
                             height="100%"
                             className="grayscale group-hover:grayscale-0 transition-all duration-300"
@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
                             allowFullScreen={true}
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="Company Location in São Paulo, Brazil"
+                            title="Company Location in Mogi das Cruzes, Brazil"
                         ></iframe>
                     </div>
                 </div>
