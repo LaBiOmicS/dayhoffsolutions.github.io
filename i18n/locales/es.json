@@ -75,7 +75,7 @@
     "mito_desc": "Especializados en el estudio del genoma mitocondrial. Analizamos su genética única para rastrear linajes evolutivos, comprender enfermedades metabólicas e investigar la producción de energía celular."
   },
   "quote": {
-    "preTitle": "// Nuestra Inspiración",
+    "preTitle": "// Nuestra Inspiração",
     "quoteText": "\"Es solo mediante la comparación de las secuencias de proteínas de los organismos vivos que podemos esperar desentrañar la historia detallada de la evolución de la vida.\"",
     "author": "Margaret Dayhoff",
     "authorTitle": "Madre de la Bioinformática"
@@ -86,7 +86,7 @@
     "subtitle": "Estamos buscando innovadores, científicos e ingenieros apasionados para ayudarnos a decodificar el futuro de la biología. Si te gustan los desafíos complejos y el descubrimiento colaborativo, explora nuestras posiciones abiertas.",
     "job1_title": "Científico de Bioinformática",
     "job1_location": "Remoto / São Paulo, SP",
-    "job1_desc": "Desarrollar y aplicar métodos computacionales para analizar datos biológicos a gran escala. Se requiere una sólida formación en genómica, estadística y Python/R.",
+    "job1_desc": "Desarrollar y aplicar métodos computacionais para analizar datos biológicos a gran escala. Se requiere una sólida formación en genómica, estadística y Python/R.",
     "job2_title": "Ingeniero de Software Senior (Nube)",
     "job2_location": "Remoto",
     "job2_desc": "Diseñar y construir infraestructura en la nube escalable para nuestros pipelines de datos. Es esencial tener experiencia en AWS/GCP, Kubernetes y Nextflow/Snakemake.",
@@ -120,7 +120,7 @@
     "subtitle": "Envía un mensaje a <span class='text-brand-primary'>contato@dayhoff.solutions</span> a través del siguiente formulario."
   },
   "footer": {
-    "copyright": "© 2025 dayhoff.solutions. Todos los derechos reservados.",
+    "copyright": "© 2025. Todos los derechos reservados.",
     "policies": "Políticas Legales"
   },
   "policies": {
