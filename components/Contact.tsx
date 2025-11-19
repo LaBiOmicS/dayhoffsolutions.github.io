@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from './ContactForm';
-import { useI18n } from '../i18n';
+import { useI18n } from '../i18n/index.tsx';
 
 const Contact: React.FC = () => {
     const { t } = useI18n();

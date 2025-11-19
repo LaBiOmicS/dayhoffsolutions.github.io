@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Sidebar from './Sidebar';
-import { useI18n } from '../i18n';
+import { useI18n } from '../i18n/index.tsx';
 
 // Define the structure for a line in our terminal
 interface TerminalLine {

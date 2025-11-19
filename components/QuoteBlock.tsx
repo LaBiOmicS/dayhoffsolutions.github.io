@@ -1,5 +1,5 @@
 import React from 'react';
-import { useI18n } from '../i18n';
+import { useI18n } from '../i18n/index.tsx';
 
 const QuoteIcon: React.FC<{ className?: string }> = ({ className }) => (
   <svg xmlns="http://www.w3.org/2000/svg" className={className} width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
