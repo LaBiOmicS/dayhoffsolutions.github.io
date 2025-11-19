@@ -1,7 +1,6 @@
 import React, { createContext, useState, useContext, useEffect, ReactNode } from 'react';
 
 type Language = 'en' | 'pt' | 'es';
-// Usando `any` para traduções, já que estamos buscando e não temos um tipo estático.
 type Translations = any;
 
 interface I18nContextType {
@@ -13,29 +12,40 @@ interface I18nContextType {
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
-// Função auxiliar para obter valores aninhados de um objeto usando uma string separada por pontos
+// This is a Vite-specific feature that imports all matching files.
+// It creates a map where keys are file paths and values are functions that return a promise for the module.
+const translationModules = import.meta.glob('./locales/*.json') as Record<string, () => Promise<{ default: Translations }>>;
+
 const getNestedValue = (obj: any, key: string): string | undefined => {
     if (!obj) return undefined;
     return key.split('.').reduce((acc, part) => acc && acc[part], obj);
 };
 
 export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-    const [language, setLanguage] = useState<Language>('en'); // Default to English
+    const [language, setLanguage] = useState<Language>('en');
     const [translations, setTranslations] = useState<Translations>({});
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
         const loadTranslations = async () => {
             setIsLoading(true);
-            try {
-                // Use dynamic import to load the JSON file
-                const langModule = await import(`./locales/${language}.json`);
-                // The actual data is in the 'default' property of the module
-                setTranslations(langModule.default);
-            } catch (error) {
-                console.error(`Failed to load translations for ${language}:`, error);
-                setTranslations({}); // Set to empty to prevent app crash
-            } finally {
+            const path = `./locales/${language}.json`;
+            
+            // Check if the module exists in our glob import
+            if (translationModules[path]) {
+                try {
+                    // Execute the function to load the module
+                    const module = await translationModules[path]();
+                    setTranslations(module.default);
+                } catch (error) {
+                    console.error(`Failed to load translations for ${language}:`, error);
+                    setTranslations({});
+                } finally {
+                    setIsLoading(false);
+                }
+            } else {
+                console.error(`Translation file not found for language: ${language}`);
+                setTranslations({});
                 setIsLoading(false);
             }
         };
@@ -44,7 +54,6 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }, [language]);
 
     const t = (key: string, options?: { [key: string]: string | number }): string => {
-        // Retorna um placeholder ou string vazia durante o carregamento para evitar erros
         if (isLoading) return '...'; 
         
         let translation = getNestedValue(translations, key) || key;
@@ -56,8 +65,6 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         return translation;
     };
 
-    // Podemos renderizar os filhos durante o carregamento. Eles apenas receberão '...' como texto.
-    // Isso evita uma tela em branco.
     return (
         <I18nContext.Provider value={{ language, setLanguage, t, translations }}>
             {children}
