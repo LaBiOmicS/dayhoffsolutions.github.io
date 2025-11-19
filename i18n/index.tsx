@@ -28,16 +28,13 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         const loadTranslations = async () => {
             setIsLoading(true);
             try {
-                // Busca a partir da raiz do servidor
-                const response = await fetch(`/i18n/locales/${language}.json`);
-                if (!response.ok) {
-                    throw new Error(`Não foi possível carregar as traduções para ${language}`);
-                }
-                const data = await response.json();
-                setTranslations(data);
+                // Use dynamic import to load the JSON file
+                const langModule = await import(`./locales/${language}.json`);
+                // The actual data is in the 'default' property of the module
+                setTranslations(langModule.default);
             } catch (error) {
-                console.error('Falha ao carregar traduções:', error);
-                setTranslations({}); // Define como vazio para evitar que o aplicativo quebre
+                console.error(`Failed to load translations for ${language}:`, error);
+                setTranslations({}); // Set to empty to prevent app crash
             } finally {
                 setIsLoading(false);
             }
