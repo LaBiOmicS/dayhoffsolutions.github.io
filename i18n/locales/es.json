@@ -120,6 +120,14 @@
     "subtitle": "Envía un mensaje a <span class='text-brand-primary'>contato@dayhoff.solutions</span> a través del siguiente formulario."
   },
   "footer": {
-    "copyright": "© 2025 • dayhoff.solutions - una empresa de deeptech que conecta moléculas, algoritmos e innovación."
+    "copyright": "© 2025 • dayhoff.solutions - una empresa de deeptech que conecta moléculas, algoritmos e innovación.",
+    "policies": "Políticas Legales"
+  },
+  "policies": {
+    "title": "Políticas Legales",
+    "privacyTitle": "Política de Privacidad",
+    "privacyText": "Tu privacidad es importante para nosotros. Es política de dayhoff.solutions respetar tu privacidad con respecto a cualquier información que podamos recopilar de ti en nuestro sitio web. Solo pedimos información personal cuando realmente la necesitamos para brindarte un servicio, como cuando utilizas nuestro formulario de contacto. La recopilamos por medios justos y legales, con tu conocimiento y consentimiento.\\nSolo conservamos la información recopilada durante el tiempo necesario para brindarte el servicio solicitado. Los datos que almacenamos, los protegeremos dentro de medios comercialmente aceptables para evitar pérdidas y robos, así como el acceso, divulgación, copia, uso o modificación no autorizados. No compartimos ninguna información de identificación personal públicamente o con terceros, excepto cuando lo exija la ley.",
+    "cookiesTitle": "Política de Cookies",
+    "cookiesText": "Usamos cookies por una variedad de razones que se detallan a continuación. Desafortunadamente, en la mayoría de los casos no existen opciones estándar de la industria para deshabilitar las cookies sin deshabilitar por completo la funcionalidad y las características que agregan a este sitio. Se recomienda que dejes activadas todas las cookies si no estás seguro de si las necesitas o no, en caso de que se utilicen para proporcionar un servicio que utilizas.\\nEste sitio utiliza cookies esenciales para garantizar su correcto funcionamiento y cookies de seguimiento para comprender cómo interactúas con él. Estas últimas solo se establecerán después de tu consentimiento. Puedes deshabilitar las cookies ajustando la configuración de tu navegador (consulta la Ayuda de tu navegador para saber cómo hacerlo). Ten en cuenta que deshabilitar las cookies afectará la funcionalidad de este y muchos otros sitios web que visites."
   }
 }

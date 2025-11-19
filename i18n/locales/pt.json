@@ -120,6 +120,14 @@
     "subtitle": "Envie uma mensagem para <span class='text-brand-primary'>contato@dayhoff.solutions</span> através do formulário abaixo."
   },
   "footer": {
-    "copyright": "© 2025 • dayhoff.solutions - uma empresa de deeptech conectando moléculas, algoritmos e inovação."
+    "copyright": "© 2025 • dayhoff.solutions - uma empresa de deeptech conectando moléculas, algoritmos e inovação.",
+    "policies": "Políticas Legais"
+  },
+  "policies": {
+    "title": "Políticas Legais",
+    "privacyTitle": "Política de Privacidade",
+    "privacyText": "A sua privacidade é importante para nós. É política da dayhoff.solutions respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no nosso site. Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço, como ao usar nosso formulário de contato. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento.\\nSó retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados. Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.",
+    "cookiesTitle": "Política de Cookies",
+    "cookiesText": "Utilizamos cookies por vários motivos, detalhados abaixo. Infelizmente, na maioria dos casos, não existem opções padrão do setor para desativar os cookies sem desativar completamente a funcionalidade e os recursos que eles adicionam a este site. É recomendável que você deixe todos os cookies se não tiver certeza se precisa ou não deles, caso sejam usados para fornecer um serviço que você usa.\\nEste site usa cookies essenciais para garantir seu funcionamento adequado e cookies de rastreamento para entender como você interage com ele. Estes últimos serão definidos somente após o consentimento. Você pode desativar os cookies ajustando as configurações do seu navegador (consulte a Ajuda do navegador para saber como fazer isso). Esteja ciente de que a desativação de cookies afetará a funcionalidade deste e de muitos outros sites que você visita."
   }
 }

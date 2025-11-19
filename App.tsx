@@ -12,6 +12,7 @@ import BackToTop from './components/BackToTop';
 import ContactModal from './components/ContactModal';
 import Careers from './components/Careers';
 import Expertise from './components/Expertise';
+import PolicyModal from './components/PolicyModal';
 
 declare global {
     interface Window {
@@ -26,6 +27,7 @@ const App: React.FC = () => {
   const aboutRef = useRef<HTMLDivElement>(null);
   // const careersRef = useRef<HTMLDivElement>(null);
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+  const [isPolicyModalOpen, setIsPolicyModalOpen] = useState(false);
 
   const scrollToRef = (ref: React.RefObject<HTMLDivElement>) => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
@@ -33,6 +35,9 @@ const App: React.FC = () => {
 
   const openContactModal = () => setIsContactModalOpen(true);
   const closeContactModal = () => setIsContactModalOpen(false);
+
+  const openPolicyModal = () => setIsPolicyModalOpen(true);
+  const closePolicyModal = () => setIsPolicyModalOpen(false);
 
     useEffect(() => {
         const initParticles = async () => {
@@ -149,9 +154,10 @@ const App: React.FC = () => {
         {/* <div ref={careersRef}><Careers openContactModal={openContactModal} /></div> */}
         <div ref={contactRef}><Contact /></div>
       </main>
-      <Footer />
+      <Footer openPolicyModal={openPolicyModal} />
       <BackToTop />
       <ContactModal isOpen={isContactModalOpen} onClose={closeContactModal} />
+      <PolicyModal isOpen={isPolicyModalOpen} onClose={closePolicyModal} />
     </div>
   );
 };
