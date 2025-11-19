@@ -102,8 +102,8 @@
     "title": "Vamos Construir o <span class='text-gradient'>Futuro da Biotecnologia</span>",
     "p1": "Seja você um pesquisador, investidor ou simplesmente um entusiasta da inovação, nós o convidamos a se conectar. Acreditamos que a colaboração é a chave para transformar a ciência em impacto no mundo real.",
     "p2": "Preencha o formulário abaixo ou envie-nos um e-mail diretamente para <a href='mailto:contato@dayhoff.solutions' class='text-brand-primary hover:underline transition-colors'>contato@dayhoff.solutions</a>.",
-    "locationPreTitle": "// Nossa Localização",
-    "locationTitle": "Encontre-nos no <span class='text-gradient'>Brasil</span>"
+    "locationPreTitle": "// Sede",
+    "locationTitle": "Nossa Presença no <span class='text-gradient'>Brasil</span>"
   },
   "contactForm": {
     "name": "Nome",

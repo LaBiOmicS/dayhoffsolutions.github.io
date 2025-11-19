@@ -7,10 +7,10 @@ const Contact: React.FC = () => {
     return (
         <section className="py-20 sm:py-24 border-t border-slate-800 bg-slate-900/50">
             <div className="container mx-auto px-6">
-                <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+                <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-stretch">
                     
                     {/* Left Column: Text and Form */}
-                    <div>
+                    <div className="flex flex-col">
                         <div className="mb-12 text-left">
                             <span className="font-mono text-brand-primary text-xs tracking-[0.2em] uppercase mb-2 block">
                                 {t('contact.preTitle')}
@@ -24,13 +24,13 @@ const Contact: React.FC = () => {
                             </p>
                         </div>
 
-                        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700 p-8 rounded-xl shadow-lg hover:border-brand-primary/30 transition-colors duration-300">
+                        <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700 p-8 rounded-xl shadow-lg hover:border-brand-primary/30 transition-colors duration-300 flex-grow">
                             <ContactForm />
                         </div>
                     </div>
 
                     {/* Right Column: Location and Map */}
-                    <div>
+                    <div className="flex flex-col">
                         <div className="mb-12 text-left">
                             <span className="font-mono text-brand-primary text-xs tracking-[0.2em] uppercase mb-2 block">
                                 {t('contact.locationPreTitle')}
@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
                             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6" dangerouslySetInnerHTML={{ __html: t('contact.locationTitle') }}>
                             </h2>
                         </div>
-                        <div className="w-full h-[450px] rounded-xl overflow-hidden border border-slate-700 group hover:border-brand-primary/30 transition-colors duration-300">
+                        <div className="w-full flex-grow rounded-xl overflow-hidden border border-slate-700 group hover:border-brand-primary/30 transition-colors duration-300">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234293.3339511798!2d-46.41924961196288!3d-23.526513799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7b6042172569%3A0x776123a2965b2403!2sMogi%20das%20Cruzes%2C%20State%20of%20S%C3%A3o%20Paulo%2C%20Brazil!5e0!3m2!1sen!2sus!4v1721336995123!5m2!1sen!2sus&style=invert_color"
                                 width="100%"
