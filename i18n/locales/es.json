@@ -103,7 +103,8 @@
     "p1": "Ya seas un investigador, inversor o un entusiasta de la innovación, te invitamos a conectar. Creemos que la colaboración es la clave para convertir la ciencia en un impacto en el mundo real.",
     "p2": "Completa el formulario a continuación o envíanos un correo electrónico directamente a <a href='mailto:contato@dayhoff.solutions' class='text-brand-primary hover:underline transition-colors'>contato@dayhoff.solutions</a>.",
     "locationPreTitle": "// Sede",
-    "locationTitle": "Nuestra Presencia en <span class='text-gradient'>Brasil</span>"
+    "locationTitle": "Nuestra Presencia en <span class='text-gradient'>Brasil</span>",
+    "locationText": "Nuestra sede está estratégicamente ubicada en el estado de São Paulo, un centro de innovación y tecnología en América Latina. Esta posición nos permite conectar con las mentes más brillantes y contribuir al ecosistema científico de la región."
   },
   "contactForm": {
     "name": "Nombre",

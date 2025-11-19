@@ -37,6 +37,9 @@ const Contact: React.FC = () => {
                             </span>
                             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6" dangerouslySetInnerHTML={{ __html: t('contact.locationTitle') }}>
                             </h2>
+                            <p className="text-slate-400 text-lg leading-relaxed">
+                                {t('contact.locationText')}
+                            </p>
                         </div>
                         <div className="w-full flex-grow rounded-xl overflow-hidden border border-slate-700 group hover:border-brand-primary/30 transition-colors duration-300">
                             <iframe
